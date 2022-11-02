@@ -1,0 +1,39 @@
+{
+  "santos": [
+    {
+      "id": 1,
+      "name": "Seiya",
+      "constelation": "Pegaso"
+    },
+    {
+      "id": 2,
+      "name": "Hyoga",
+      "constelation": "Cisne"
+    },
+    {
+      "id": 3,
+      "name": "Shiryu",
+      "constelation": "Dragon"
+    },
+    {
+      "id": 4,
+      "name": "Shun",
+      "constelation": "Andromeda"
+    },
+    {
+      "id": 5,
+      "name": "Ikki",
+      "constelation": "Fenix"
+    },
+    {
+      "name": "Rei Chikita",
+      "constelation": "El chikitoverso",
+      "id": 6
+    },
+    {
+      "name": "Mu",
+      "constelation": "Vaca",
+      "id": 7
+    }
+  ]
+}
