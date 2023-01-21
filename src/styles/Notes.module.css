@@ -1,0 +1,90 @@
+.notes {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 95vw;
+  padding: var(--space-3xs) var(--space-2xs);
+  overflow: hidden;
+  
+}
+
+.notesSection {height: 75%;}
+
+.notesTitle {
+
+  height: 2rem;
+  overflow: hidden;
+
+}
+
+.notesText {
+
+  height: 5rem;
+  overflow: hidden;
+
+}
+
+.footerNote {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2rem;
+
+}
+
+/* open-note */
+
+
+.openNote {
+
+  display:flex;
+  flex-direction:column;
+  margin: 0 auto;
+  margin-top: var(--space-m);
+  padding: 1rem;
+  height:85vh;
+  width: 90%;
+  max-width: 55rem;
+
+}
+
+.headerNote {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+/* open-checkList */
+
+.addElList {
+
+  width: 100%;
+  padding-top: var(--space-3xs);
+  resize: none;
+
+}
+
+.listElement {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.listElementChilds {
+
+  width: 100%;
+  padding: var(--space-3xs) 0;
+
+}
+
+
+
+
+
+

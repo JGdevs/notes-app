@@ -1,0 +1,40 @@
+/* header */
+
+.active {font-weight: bold;}
+
+.add {margin-bottom: -.4em;}
+
+.header {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vh;
+  padding-bottom: var(--space-s);
+  padding-top: var(--space-xs);
+  border-bottom: thin solid gray;
+  background-image: linear-gradient(#eee,#bbb);
+
+}
+
+.header.dark {
+
+  background-color: #000;
+
+}
+
+.headerIcons {margin-right: var(--space-3xs);} 
+
+.titleApp {
+
+  margin-left: var(--space-3xs);
+  font-size: var(--step-1);
+
+}
+
+.options {
+
+  display: flex;
+  align-items: center;
+
+}

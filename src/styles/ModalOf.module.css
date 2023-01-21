@@ -1,0 +1,66 @@
+.modal {
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:fixed;
+  bottom:0;
+  top:0;
+  left:0;
+  right:0;
+  background-color:#0005;
+  animation: animation-modal .2s ease forwards;
+
+}
+
+.cross {
+
+  position: absolute;
+  top: var(--space-2xs);
+  right: var(--space-xs);
+  color: var(--white-color);
+  font-size: var(--step-2);
+
+}
+
+.childModal {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50%;
+  width: 50%;
+  min-width: 12.5rem;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+
+}
+
+.colorModal {
+
+  display: grid;
+  grid-template-columns: repeat(3,6rem);
+  gap: 1rem;
+  align-content: center;
+  justify-content: center;
+  width: fit-content;
+  padding: var(--space-xs);
+  background-color: #f9f9f9;
+
+}
+
+.colorModalChild {
+
+  height: 6rem;
+  width: 6rem;
+
+}
+
+.modalOption {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}

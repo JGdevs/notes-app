@@ -1,0 +1,50 @@
+/* search modal */
+
+.modalSearch {
+
+  position:fixed;
+  bottom:0;
+  top:0;
+  left:0;
+  right:0;
+  background-color:#0005;
+
+}
+
+.searchForm {
+
+  display: flex;
+  height: 9vh;
+  width: 100%;
+  color: initial;
+  animation: animation-child-modal .2s ease forwards;
+
+}
+
+.searchInput {
+
+  width: 93%;
+  background-color: #fff;
+  height: inherit;
+
+}
+
+.searchSubmit {
+
+  position: relative;
+  width: 7%;
+  min-width: 6rem;
+  background-color: #fff;
+  border-left: thin solid #000;
+  height: inherit;
+
+}
+
+.submitChilds{
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+}

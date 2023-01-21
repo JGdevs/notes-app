@@ -1,0 +1,67 @@
+.modal {
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:fixed;
+  bottom:0;
+  top:0;
+  left:0;
+  right:0;
+  background-color:#0005;
+  animation: animation-modal .2s ease forwards;
+
+}
+
+.cross {
+
+  position: absolute;
+  top: var(--space-2xs);
+  right: var(--space-xs);
+  color: var(--white-color);
+  font-size: var(--step-2);
+
+}
+
+.formNote {
+
+  display:flex;
+  flex-direction:column;
+  height:80vh;
+  width: 90%;
+  max-width: 50rem;
+  background-color: #fc6;
+  padding: var(--space-xs);
+  
+}
+
+.headerNote {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.addListOption {
+
+  display: flex;
+  
+}
+
+.addElList {
+
+  width: 100%;
+  padding-top: var(--space-3xs);
+  resize: none;
+
+}
+
+.checkList {
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+
+}

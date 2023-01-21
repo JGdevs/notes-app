@@ -1,0 +1,72 @@
+/* menu */
+
+.panel {
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0005;
+  animation: animation-modal .5s ease forwards;
+  
+}
+
+.menuContainer {
+
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: 18rem;
+  background-color: #ccc;
+  animation: menu-animation .4s ease forwards;
+
+}
+
+.menuHeader {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 8%;
+
+}
+
+.asideMenu {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 65%; 
+  max-height: 30rem;
+  margin-left: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.asideMenu > div {
+
+  display: flex;
+  align-items: center;
+
+}
+
+.aside-menu > *:hover {color: gray;}
+
+@keyframes animation-modal {
+
+  0% {opacity: 0;}
+
+  100% {opacity: 1;}
+
+}
+
+@keyframes menu-animation {
+  
+  0% {transform: translateX(-100%);}
+
+  100% {transform: translateX(0%);}
+
+}
